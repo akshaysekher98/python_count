@@ -1,8 +1,8 @@
 #count words
 s = " hello world"
 def count_words(s):
-    x = len( s.split())
-    return x
+    words = len( s.split())
+    return words
 w = count_words(s)
 print("number of words : ",w)
 
