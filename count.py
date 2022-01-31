@@ -1,9 +1,9 @@
 #count words
-str = " hello world"
-def count_words(str):
-    words = len( str.split())
+s = " hello world"
+def count_words(s):
+    words = len( s.split())
     return words
-w = count_words(str)
+w = count_words(s)
 print("number of words : ",w)
 
 #count digits
@@ -30,7 +30,7 @@ print("number of sentence : ",c)
 
 #pytest
 def test_count_words():
-    assert count_words(str)==2
+    assert count_words(s)==2
 
 def test_count_digits():
     assert count_digits(string)==4
